@@ -29,6 +29,17 @@ new Share(".share-button", {
   }
 });
 
+new Share(".share-bottom", {
+  ui: {
+    flyout: "top left"
+  },
+  networks: {
+    email: {
+      description: [document.querySelector(`meta[property="og:description"]`).innerHTML, window.location.href].join("\n")
+    }
+  }
+});
+
 //create new question from template
 var showQuestion = function(questionId) {
   $(".question-box").html(ich.questionTemplate(quizData[id]));
