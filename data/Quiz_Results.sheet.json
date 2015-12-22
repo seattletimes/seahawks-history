@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Level One",
+    "min": "0",
+    "max": "2",
+    "description": "Description goes here.",
+    "image": "test.jpg",
+    "photographer": "Photographer Name",
+    "source": "Source Name"
+  },
+  {
+    "title": "Level Two",
+    "min": "3",
+    "max": "5",
+    "description": "Description goes here.",
+    "image": "test.jpg",
+    "photographer": "Photographer Name",
+    "source": "Source Name"
+  },
+  {
+    "title": "Level Three",
+    "min": "6",
+    "max": "8",
+    "description": "Description goes here.",
+    "image": "test.jpg",
+    "photographer": "Photographer Name",
+    "source": "Source Name"
+  },
+  {
+    "title": "Level Four",
+    "min": "9",
+    "max": "12",
+    "description": "Description goes here.",
+    "image": "test.jpg",
+    "photographer": "Photographer Name",
+    "source": "Source Name"
+  }
+]

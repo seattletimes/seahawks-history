@@ -1,0 +1,21 @@
+{
+  "s3": {
+    "stage": {
+      "bucket": "apps-stage.seattletimesdata.com",
+      "path": ""
+    },
+    "live": {
+      "bucket": "projects.seattletimes.com",
+      "path": "2015/quizzes/seahawks-history"
+    }
+  },
+  "title": "",
+  "description": "",
+  "url": "http://projects.seattletimes.com/2015/quizzes/seahawks-history/",
+  "slug": "",
+  "tags": [ "quiz" ],
+  "image": "assets/social.jpg",
+  "sheets": ["1f2jjVcLI9V3m3xs83xDZgks0xoJ4Oz6r_hE_bksog8w"],
+  "production": false,
+  "embedded": true
+}

@@ -1,0 +1,128 @@
+.outer {
+  font-family: @body;
+  font-size: 18px;
+  max-width: 1200px;
+  margin: auto;
+
+  @media @break {
+    font-size: 16px;
+    padding: 0px;
+  }
+}
+
+.ad {
+  text-align: center;
+  padding-top: 10px;
+}
+.bottom-ad {
+  @media @mobile {
+    display: none;
+  }
+}
+
+nav.top-bar {
+  border-bottom: 1px solid @df-middle-gray;
+
+  @media @mobile {
+    height: 40px;
+    width: 100%;
+  }
+
+  .logo {
+    position: relative;
+    top: 30px;
+    text-align: center;
+    display: block;
+
+    @media @mobile {
+      top: 20px;
+    }
+
+    img {
+      box-sizing: content-box;
+      height: 30px;
+      background: white;
+      padding: 10px;
+
+      @media @mobile {
+        padding: 5px;
+      }
+    }
+  }
+}
+
+.splash {
+  display: block;
+  margin: auto;
+}
+
+header {
+  text-align: center;
+  padding: 15px 0;
+  margin: 0 auto;
+  max-width: 840px;
+
+  @media @tablet {
+    padding-left: 8px;
+    padding-right: 5px;
+  }
+}
+
+.thin-div {
+  border-bottom: 1px solid @df-light-gray;
+  margin-bottom: 15px;
+
+  .center {
+    position: relative;
+    top: 15px;
+    margin: auto;
+    width: 100px;
+    text-align: center;
+    font-size: 20px;
+    background: white;
+  }
+}
+
+.dont-miss {
+  .display-flex;
+  .flex-wrap(wrap);
+  margin-bottom: 20px;
+
+  .story {
+    .flex(0 0 25%);
+
+    @media @mobile {
+      .flex(1 1 50%)
+    }
+  }
+  .padded {
+    padding: 10px;
+  }
+  .small {
+    font-weight: bold;
+    font-size: 15px;
+  }
+  a {
+    color: @df-dark-gray;
+    transition: color .1s linear;
+
+    &:hover {
+      color: @df-blue;
+    }
+  }
+}
+
+footer {
+  background: @df-charcoal;
+  padding: 0 10px;
+  margin-top: 30px;
+
+  @media @tablet {
+    margin-top: 0px;
+  }
+
+  .logo img {
+    margin-top: 10px;
+    height: 20px;
+  }
+}

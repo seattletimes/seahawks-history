@@ -1,0 +1,131 @@
+<!doctype html>
+<html>
+  <head>
+    <title><%= json.project.title %></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href='http://fonts.googleapis.com/css?family=Paytone+One:700,400,300' rel='stylesheet' type='text/css'>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <%= t.include("partials/_adHead.html") %>
+  </head>
+  <body>
+
+    <div class="outer">
+      <%= t.include("partials/_ad.html", { type: "banner" }) %>
+
+      <nav class="top-bar">
+        <a class="logo" href="http://seattletimes.com">
+          <img src="./assets/seattletimes.svg">
+        </a>
+      </nav>
+
+      <img class="splash" src="./assets/splash.jpg">
+
+      <header>
+
+        <h2 class="quiz-label">Trivia quiz</h2>
+        
+        <h1 class="title">
+
+            TITLE GOES
+
+          <div class="secondary">
+
+            HERE
+
+          </div>
+
+        </h1>
+
+        <p class="chatter">
+
+          Chatter goes here
+
+          <a class="share-button"></a>
+        </p>
+
+      </header>
+
+      <div class="quiz-container">
+
+        <div class="divider"></div>
+
+        <div class="quiz-box"> 
+
+          <!-- START OF QUIZ -->
+          <div class="question-box"></div>
+
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="credits">
+
+          First credit by <span class="credit-name">Author Name(s)</span> 
+
+          &bull; 
+
+          Second credit by <span class="credit-name">Author Name(s)</span>
+
+        </div>
+
+        <div class="sources">
+          Source: <span class="credit-name">Source Name</span>
+        </div>
+
+        <div class="thin-div">
+          <div class="center">Don't Miss</div>
+        </div>
+
+        <div class="dont-miss"></div>
+
+        <div class="bottom-ad"><%= t.include("partials/_ad.html", { type: "bannerBottom" }) %></div>
+      </div>
+    </div>
+
+    <footer>
+      <a class="logo" href="http://seattletimes.com">
+        <img src="./assets/st-logo.png">
+      </a>
+      <a class="share-bottom"></a>
+    </footer>
+
+    <script>
+      <% 
+        var quizData = {};
+        json.Quiz_Questions.forEach(function(q) {
+          quizData[q.id] = { 
+            "question": q.question,
+            "desc": q.description,
+            "image": q.image
+          };
+        });
+        json.Quiz_Answers.forEach(function(a, index) {
+          var id = a.id;
+          if (!quizData[id].answers) { quizData[id].answers = [] }
+          var answer = { 
+            "answer": a.answer,
+            "correct": a.correct,
+            "id": index
+          };
+          quizData[id].answers.push(answer);
+        });
+      %>
+      var quizData = <%= JSON.stringify(quizData) %>;
+      var resultsData = <%= JSON.stringify(json.Quiz_Results) %>;
+      var elsewhereData = <%= JSON.stringify(json.Quiz_Elsewhere) %>;
+      var configData = {
+        title: "<%= json.project.title %>",
+        description: "<%= json.project.description %>",
+        url: "<%= json.project.url %>"
+      }
+    </script>
+
+    <script src="app.js"></script>
+    <% if (json.project.production) { %>
+    <%= !json.project.embedded ? t.include("partials/_adFoot.html") : "" %>
+    <%= t.include("partials/_workHere.html") %>
+    <% } %>
+  </body>
+</html>
