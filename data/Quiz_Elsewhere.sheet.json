@@ -1,29 +1,29 @@
 [
   {
-    "title": "Personality Quiz: Which Seahawk are you?",
+    "title": "Which Seahawk are you?",
     "order": "1",
-    "category": "Category 1",
+    "category": "Personality Quiz",
     "link": "http://projects.seattletimes.com/2015/which-seahawk-are-you/",
-    "image": "http://static.seattletimes.com/wp-content/uploads/2015/12/pquiztzr.jpg"
+    "image": "pquiztzr.jpg"
   },
   {
-    "title": "Seahawks Top-40",
+    "title": "Who are the best Seahawks in history?",
     "order": "2",
-    "category": "Category 2",
+    "category": "Top-40",
     "link": "http://www.seattletimes.com/sports/seahawks/list-of-greatest-seattle-seahawks-topped-by-3-hall-of-famers-5-current-seahawks/",
-    "image": "http://static.seattletimes.com/wp-content/uploads/2015/12/TZRlargent27.jpg"
+    "image": "TZRlargent27.jpg"
   },
   {
-    "title": "Seahawks Fan Map: Tell us your story",
+    "title": "Tell us your Seahawks story",
     "order": "3",
-    "category": "Category 3",
+    "category": "Fan Map",
     "link": "http://projects.seattletimes.com/2015/hawks-fan-map/",
-    "image": "http://static.seattletimes.com/wp-content/uploads/2015/12/fanmaptzr.jpg"
+    "image": "fanmaptzr.jpg"
   },
   {
     "title": "The world according to Michael Bennett",
     "order": "4",
-    "category": "Category 4",
+    "category": "Top Quotes",
     "link": "http://projects.seattletimes.com/2015/sports/Bennettisms/",
     "image": "http://static.seattletimes.com/wp-content/uploads/2015/10/2048ed2c-7dd7-11e5-9886-97e85c0a802d.jpg"
   }
