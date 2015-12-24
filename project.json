@@ -1,7 +1,7 @@
 {
   "s3": {
     "stage": {
-      "bucket": "projects.staging.seattletimes.com",
+      "bucket": "project.staging.seattletimes.com",
       "path": "seahawks-history"
     },
     "live": {
@@ -14,8 +14,8 @@
   "url": "http://projects.seattletimes.com/2015/quizzes/seahawks-history/",
   "slug": "",
   "tags": ["quiz"],
-  "image": "http://static.seattletimes.com/wp-content/uploads/2015/12/SeahawkQuiz2-002.jpg",
+  "image": "assets/social.jpg",
   "sheets": ["1f2jjVcLI9V3m3xs83xDZgks0xoJ4Oz6r_hE_bksog8w"],
-  "production": false,
+  "production": true,
   "embedded": true
 }
