@@ -9,14 +9,14 @@
   {
     "id": "2",
     "title": "2",
-    "question": "What college campus to Seahawks first hold training camp?",
+    "question": "What college campus did the Seahawks first hold training camp?",
     "description": "The Seahawks have spent many summers in Cheney, Wash. The team spent worked out at Eastern Washington University during training camp for 10 seasons before moving to Kirkland. The Hawks would later return to Cheney in 1997, where they stayed each summer through 2006. Now, of course, the Seahawks spend their summers on the shores of Lake Washington at the Virginia Mason Athletic Center.",
     "image": "test.jpg"
   },
   {
     "id": "3",
     "title": "3",
-    "question": "John Elway passed for 432 yards against the Seahawks in 1985, but it’s not the most ever. Who has the most passing yards vs Seattle?",
+    "question": "John Elway passed for 432 yards against the Seahawks in 1985, but it’s not the most ever. Who holds the record for most passing yards vs Seattle?",
     "description": "To the suprise of many, Steelers QB Ben Roethlisberger lit up the Seahawks' secondary this season, throwing for 456 yards in a losing effort. The previous record was set in 2010, when Chargers QB Philip Rivers threw for 455 yards, also in a losing effort. ",
     "image": "test.jpg"
   },
@@ -24,7 +24,7 @@
     "id": "4",
     "title": "4",
     "question": "In 1975, Seattleites were asked to submit suggestions for the team name, receiving 20,365 entries and ultimately ending in the \"Seahawks\" team name we know and love today. Which of the following names was NOT one of the 20,365 entries?",
-    "description": "",
+    "description": "The winning Seahawks name was chosen on June 17, 1975. Luckily they aren't the Seattle Squids. ",
     "image": ""
   },
   {
@@ -72,7 +72,7 @@
   {
     "id": "12",
     "title": "12",
-    "question": "Including this season, how many of the Seahawks' 40 seasons have the Seahawks reached the playoffs?",
+    "question": "In 40 seasons, including this year, how many times have the Seahawks reached the playoffs?",
     "description": "The Seahawks clinched their 15th playoff berth on Sunday, Dec. 20 with a win over the Browns. This year's playoff run also adds to an unprecedented run of success for the Seahawks, who have reached the playoffs in 10 of the past 13 seasons.",
     "image": ""
   },
