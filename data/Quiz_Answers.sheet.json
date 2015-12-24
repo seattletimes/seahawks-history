@@ -20,7 +20,7 @@
   {
     "id": "1",
     "title": "1",
-    "answer": "3 years",
+    "answer": "Walter Jones",
     "correct": ""
   },
   {
@@ -34,6 +34,12 @@
     "title": "2",
     "answer": "Eastern Washington University",
     "correct": "x"
+  },
+  {
+    "id": "2",
+    "title": "2",
+    "answer": "Northwest College",
+    "correct": ""
   },
   {
     "id": "2",
@@ -231,7 +237,7 @@
     "id": "9",
     "title": "9",
     "answer": "Ken Behring",
-    "correct": ""
+    "correct": "x"
   },
   {
     "id": "9",

@@ -3,21 +3,21 @@
     "id": "1",
     "title": "1",
     "question": "Which player holds the record for most games started as a Seahawk?",
-    "description": "This is a decprtion. 1",
-    "image": "test.jpg"
+    "description": "Arguably the greatest Seahawks player ever was also their most durable. Steve Largent started 197 games for the Seahawks, followed by Walter Jones (180).",
+    "image": "http://static.seattletimes.com/wp-content/uploads/2015/12/TZRlargent27.jpg"
   },
   {
     "id": "2",
     "title": "2",
     "question": "What college campus to Seahawks first hold training camp?",
-    "description": "This is description 2.",
+    "description": "The Seahawks have spent many summers in Cheney, Wash. The team spent worked out at Eastern Washington University during training camp for 10 seasons before moving to Kirkland. The Hawks would later return to Cheney in 1997, where they stayed each summer through 2006. Now, of course, the Seahawks spend their summers on the shores of Lake Washington at the Virginia Mason Athletic Center.",
     "image": "test.jpg"
   },
   {
     "id": "3",
     "title": "3",
     "question": "John Elway passed for 432 yards against the Seahawks in 1985, but it’s not the most ever. Who has the most passing yards vs Seattle?",
-    "description": "This is description 3.",
+    "description": "To the suprise of many, Steelers QB Ben Roethlisberger lit up the Seahawks' secondary this season, throwing for 456 yards in a losing effort. The previous record was set in 2010, when Chargers QB Philip Rivers threw for 455 yards, also in a losing effort. ",
     "image": "test.jpg"
   },
   {
@@ -31,56 +31,56 @@
     "id": "5",
     "title": "5",
     "question": "Brian Bosworth and Steve Largent retired in the same year. What year was it?",
-    "description": "",
+    "description": "While Brian Bosworth retired after just three NFL seasons, Steve Largent ended a 14-year career as the NFL's all-time leading receiver (at the time). Despite the losses, the Seahawks went on to post a winning record (9-7) the following year.",
     "image": ""
   },
   {
     "id": "6",
     "title": "6",
     "question": "Who was the only Seahawks ever to wear the number 12?",
-    "description": "",
+    "description": "The Seahawks officially retired the No. 12 on Dec. 15, 1984 prior to the team's regular season finale against the Denver Broncos. The number is now solely devoted to fans -- often referred to as the '12th man' -- in recognition of their support. ",
     "image": ""
   },
   {
     "id": "7",
     "title": "7",
-    "question": "How did the Seahawks get their Legion of Boom (LOB) nickname?",
-    "description": "",
+    "question": "How did the Seahawks' secondary get its Legion of Boom (LOB) nickname?",
+    "description": "Now one of the most popular nicknames in sports, the \"Legion of Boom\" name originated in 2013 on the radio. Safety Kam Chancellor was doing an interview on the \"Bob and Groz\" show on 710 ESPN Seattle, when he told the hosts how he wanted to bring the \"boom\". A caller then texted the name as part of a poll, and after the approval of Richard Shermam, the name was cemented. ",
     "image": ""
   },
   {
     "id": "8",
     "title": "8",
     "question": "Steve Largent claims the Seahawks' record for total yards, but who has the record for most touchdowns scored?",
-    "description": "",
+    "description": "If there's one thing to remember Shaun Alexander by, it was his knack for finding the end zone. And while the Hawks' star tailback averaged 15 TD's from 2001-2004, he took his game to another level in 2005, notching a then NFL-best 27 rushing touchdowns. ",
     "image": ""
   },
   {
     "id": "9",
     "title": "9",
     "question": "Who nearly moved the Seahawks to L.A. in 1996?",
-    "description": "",
+    "description": "Ken Behring purchased the Seahawks in 1988, and in 1996 moved the team's operations to Anaheim, Calif., while the team remained in Seattle. A California native, Behring had every intent to move the team to Los Angeles -- a plan Seahawks fans were obviously determined to thwart. In April 1996, Paul Allen answered the bell and purchased the team from Behring for $200 million. Had Allen not stepped in, we could well be watching the Los Angeles Seahawks every Sunday.",
     "image": ""
   },
   {
     "id": "10",
     "title": "10",
     "question": "Which of the following is NOT true?",
-    "description": "",
-    "image": ""
-  },
-  {
-    "id": "11",
-    "title": "11",
-    "question": "How many of the Seahawks' 40 seasons have ended in a playoff run?",
-    "description": "",
+    "description": "While Seahawks fans have caused earthquakes, they do not hold the record for loudest in the NFL. In a game last season, the Kansas City Chiefs fans at Arrowhead Stadium set the new record of 142.2 decibels, besting Seattle's previous record of 137.6 set on a Monday Night Football game against the Saints in 2013. ",
     "image": ""
   },
   {
     "id": "12",
     "title": "12",
+    "question": "Including this season, how many of the Seahawks' 40 seasons have the Seahawks reached the playoffs?",
+    "description": "The Seahawks clinched their 15th playoff berth on Sunday, Dec. 20 with a win over the Browns. This year's playoff run also adds to an unprecedented run of success for the Seahawks, who have reached the playoffs in 10 of the past 13 seasons.",
+    "image": ""
+  },
+  {
+    "id": "11",
+    "title": "11",
     "question": "In a game against the Rams in 1979, the Seahawks set an NFL record for least amount of yards gained in a game. How many yards did the Seahawks muster in that game?",
-    "description": "",
+    "description": "Yes, it is possible to gain negative yards in an NFL game, and yes, the Seahawks did just that. In the worst offensive performance in NFL history, the Jim Zorn-led Hawks completed just two passes and managed just one first down. Ouch.",
     "image": ""
   }
 ]
