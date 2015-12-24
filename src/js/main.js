@@ -24,7 +24,9 @@ new Share(".share-button", {
   },
   networks: {
     email: {
-      description: [document.querySelector(`meta[property="og:description"]`).innerHTML, window.location.href].join("\n")
+      description: [document.querySelector(
+          `meta[property="og:description"]`).innerHTML, window.location.href]
+        .join("\n")
     }
   }
 });
@@ -35,7 +37,9 @@ new Share(".share-bottom", {
   },
   networks: {
     email: {
-      description: [document.querySelector(`meta[property="og:description"]`).innerHTML, window.location.href].join("\n")
+      description: [document.querySelector(
+          `meta[property="og:description"]`).innerHTML, window.location.href]
+        .join("\n")
     }
   }
 });
@@ -48,7 +52,7 @@ var showQuestion = function(questionId) {
 
 // show submit button when answer is selected
 var watchInput = function() {
-  $(".quiz-box").on("click", "input", (function(){
+  $(".quiz-box").on("click", "input", (function() {
     $(".submit").addClass("active");
     $(".submit").attr("disabled", false);
   }));
@@ -59,7 +63,7 @@ $(".quiz-container").on("click", ".submit", function() {
   var answerData = {};
   answerData.question = quizData[id].question;
   var correct = $("input:checked").val();
-  if (correct) { 
+  if (correct) {
     score += 1;
     answerData.hooray = true;
   }
@@ -104,9 +108,9 @@ var calculateResult = function() {
     if (score >= result.min && score <= result.max) {
       // display result
       result.score = score;
-      if (result.score > 5) { 
+      if (result.score > 5) {
         result.color = "#589040";
-      } else if (result.score > 2) { 
+      } else if (result.score > 2) {
         result.color = "#F5AE3F";
       } else {
         result.color = "#e12329";
@@ -114,16 +118,22 @@ var calculateResult = function() {
       result.total = Object.keys(quizData).length;
 
       $(".question-box").html(ich.overviewTemplate(result));
-      
+
       new Share(".share-results", {
-        description: "I scored " + result.score + "/" + result.total + "! " + document.querySelector(`meta[property="og:description"]`).innerHTML,
+        description: "I scored " + result.score + "/" + result.total +
+          "! " + document.querySelector(`meta[property="og:description"]`)
+          .innerHTML,
         ui: {
           flyout: "bottom right",
           button_text: "Share results"
         },
         networks: {
           email: {
-            description: "I scored " + result.score + "/" + result.total + "! " + [document.querySelector(`meta[property="og:description"]`).innerHTML, window.location.href].join("\n")
+            description: "I scored " + result.score + "/" + result.total +
+              "! " + [document.querySelector(
+                  `meta[property="og:description"]`).innerHTML, window.location
+                .href
+              ].join("\n")
           }
         }
       });

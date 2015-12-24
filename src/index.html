@@ -20,19 +20,19 @@
         </a>
       </nav>
 
-      <img class="splash" src="./assets/splash.jpg">
+      <img class="splash" src="http://static.seattletimes.com/wp-content/uploads/2015/12/SeahawkQuiz2-002.jpg">
 
       <header>
 
         <h2 class="quiz-label">Trivia quiz</h2>
-        
+
         <h1 class="title">
 
-            TITLE GOES
+            Test your knowledge of
 
           <div class="secondary">
 
-            HERE
+            the team
 
           </div>
 
@@ -40,7 +40,7 @@
 
         <p class="chatter">
 
-          Chatter goes here
+To help commemorate the Seahawks’ 40th season, we’ve put together a quiz about the franchise’s history. See how well you know the Seahawks and their past.
 
           <a class="share-button"></a>
         </p>
@@ -51,7 +51,7 @@
 
         <div class="divider"></div>
 
-        <div class="quiz-box"> 
+        <div class="quiz-box">
 
           <!-- START OF QUIZ -->
           <div class="question-box"></div>
@@ -62,11 +62,11 @@
 
         <div class="credits">
 
-          First credit by <span class="credit-name">Author Name(s)</span> 
+          Quiz by <span class="credit-name">Sean Quinton and Ed Guzman</span>
 
-          &bull; 
+          &bull;
 
-          Second credit by <span class="credit-name">Author Name(s)</span>
+          Illustration by <span class="credit-name">Rich Boudet and Frank Mina</span>
 
         </div>
 
@@ -92,10 +92,10 @@
     </footer>
 
     <script>
-      <% 
+      <%
         var quizData = {};
         json.Quiz_Questions.forEach(function(q) {
-          quizData[q.id] = { 
+          quizData[q.id] = {
             "question": q.question,
             "desc": q.description,
             "image": q.image
@@ -104,7 +104,7 @@
         json.Quiz_Answers.forEach(function(a, index) {
           var id = a.id;
           if (!quizData[id].answers) { quizData[id].answers = [] }
-          var answer = { 
+          var answer = {
             "answer": a.answer,
             "correct": a.correct,
             "id": index

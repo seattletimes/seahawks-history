@@ -1,36 +1,36 @@
 [
   {
-    "title": "Level One",
+    "title": "Newbie ",
     "min": "0",
     "max": "2",
-    "description": "Description goes here.",
+    "description": "You either need some brushing up, or you've only been a fan in recent years. In which case, your memories of the Seahawks have been mostly happy. ",
     "image": "test.jpg",
     "photographer": "Photographer Name",
     "source": "Source Name"
   },
   {
-    "title": "Level Two",
+    "title": "Hawk fan in training",
     "min": "3",
     "max": "5",
-    "description": "Description goes here.",
+    "description": "The Seahawks' Super Bowl runs have been memorable, but the lean years are ones you'd rather forget.",
     "image": "test.jpg",
     "photographer": "Photographer Name",
     "source": "Source Name"
   },
   {
-    "title": "Level Three",
+    "title": "Seasoned fan",
     "min": "6",
     "max": "8",
-    "description": "Description goes here.",
+    "description": "Definitely a fan of the Seahawks, but some of the details might be getting fuzzy. A lot has happened in those 40 seasons. In any case, you wear your Steve Largent jersey with pride.",
     "image": "test.jpg",
     "photographer": "Photographer Name",
     "source": "Source Name"
   },
   {
-    "title": "Level Four",
-    "min": "9",
+    "title": "True die-hard",
+    "min": "10",
     "max": "12",
-    "description": "Description goes here.",
+    "description": "You are a die-hard fan who's probably seen it all with the Seahawks, both in the Kingdome and at CenturyLink Field. Congrats, blue and green runs deep in your veins, and you won't stop renewing those season tickets until the day you die.",
     "image": "test.jpg",
     "photographer": "Photographer Name",
     "source": "Source Name"
