@@ -1,7 +1,7 @@
 {
   "s3": {
     "stage": {
-      "bucket": "project.staging.seattletimes.com",
+      "bucket": "apps-stage.seattletimesdata.com",
       "path": "seahawks-history"
     },
     "live": {
@@ -9,13 +9,13 @@
       "path": "2015/quizzes/seahawks-history"
     }
   },
-  "title": "",
-  "description": "",
+  "title": "Quiz: How well do you know the Seahawks",
+  "description": "To help commemorate the Seahawks’ 40th season, we’ve put together a quiz about the franchise’s history. See how well you know the Seahawks and their past.",
   "url": "http://projects.seattletimes.com/2015/quizzes/seahawks-history/",
-  "slug": "",
+  "slug": "Seahawks-history-quiz",
   "tags": ["quiz"],
-  "image": "assets/social.jpg",
+  "image": "http://static.seattletimes.com/wp-content/uploads/2015/12/SeahawkQuiz2-002.jpg",
   "sheets": ["1f2jjVcLI9V3m3xs83xDZgks0xoJ4Oz6r_hE_bksog8w"],
-  "production": true,
+  "production": false,
   "embedded": true
 }
