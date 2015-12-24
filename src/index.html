@@ -74,11 +74,7 @@ To help commemorate the Seahawks’ 40th season, we’ve put together a quiz abo
           Source: <span class="credit-name">Seahawks.com, Pro-Football-reference.com, FieldGulls.com </span>
         </div>
 
-        <!-- <div class="thin-div"> -->
-          <!-- <div class="center">Don't Miss</div> -->
-        <!-- </div> -->
-
-        <!-- <div class="dont-miss"></div> -->
+        <%= t.include("partials/_dontMiss.html", { data: json.Quiz_Elsewhere }) %>
 
         <div class="bottom-ad"><%= t.include("partials/_ad.html", { type: "bannerBottom" }) %></div>
       </div>

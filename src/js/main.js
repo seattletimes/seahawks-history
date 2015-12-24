@@ -141,23 +141,5 @@ var calculateResult = function() {
   }
 };
 
-elsewhereData.forEach(function(story) {
-  $(".dont-miss").append(
-    `
-      <div class="story">
-        <div class="padded">
-        <a href=${story.link}>
-          <img src="./assets/elsewhere/${story.image}"></img>
-        </a>
-          <div class="small">${story.category}</div>
-        <a href=${story.link}>
-          <div>${story.title}</div>
-        </a>
-        </div>
-      </div>
-    `
-  );
-});
-
 showQuestion(id);
 watchInput();
